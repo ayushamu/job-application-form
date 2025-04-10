@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    display: flex;
+
+}
+.container{
+    max-width:800px ;
+}
+
+.formbox{
+    /* max-width: 600px;
+    max-height: 600px; */
+    border-radius: 3%;
+    max-width: 600px;
+    height: 500px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow:4px 4px 5px #00000055;
+    
+    /* background-color: white;
+    margin-top: 50px;
+    margin-left: 30vw; */
+    
+    /* display: flex;  */
+}
+
+.formsbtn{
+    /* display: flex; */
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+input , select{
+   /* border: 1px,solid,transparent; */
+   width: 260px;
+   margin-top: 4px;
+   padding: 6px 10px;
+   font-size: 15px;
+}
+input:hover{
+    border: 1px,solid,red;
+}
+ .row1{
+    margin-top: 15px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+#p2 ,#p3,#p4,#p5{
+    
+    margin-left: 30px;
+}
+
+.address{
+    margin-top: 15px;
+    
+}
+textarea{
+    padding: 6px 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.row2{
+    display: flex;
+    margin-top: 15px;
+}
+.row4{
+    display: flex;
+    margin-top: 15px;
+}
+.row5{
+    display: flex;
+    margin-top: 15px;
+} 
+#p6{
+    border: 1px,solid,black;
+}
+
+.btn{
+   position: absolute;
+   margin-top: 15px;
+   margin-left: 464px;
+   
+}
+button{
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: 2px,solid,transparent;
+    transition: 10ms;
+}
+button:hover{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    border: 1px,solid,red;
+}
